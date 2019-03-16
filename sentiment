@@ -1,6 +1,6 @@
-import panda as pd
-import ntlk
-from ntlk.sentiment.vader import Sentimentnt
+import pandas as pd
+import nltk
+from nltk.sentiment.vader import Sentimentnt
 ntlk.downloader.download('vader_lexicon')
 file="C:\Users\enite\Downloads\Book1.xls"
 xl=pd.ExcelFile(file) #Read from excel
